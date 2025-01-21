@@ -6,16 +6,35 @@
     <link rel="stylesheet" href="D:/Portfolio/style.css">
     <style>
         body {
-            font-size: 18px; /* Adjusted font size for better readability */
+            font-size: 18px; 
         }
         h1 {
-            font-size: 32px; /* Increased font size for the main heading */
+            font-size: 32px; 
         }
-        ul {
-            font-size: 20px; /* Increased font size for list items */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
         }
-        li {
-            margin-bottom: 10px; /* Added spacing between list items */
+        .skill {
+            text-align: center;
+        }
+        .skill img {
+            width: 80px; /* Adjust size as needed */
+            height: 80px; /* Adjust size as needed */
+        }
+        .skill h2 {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .category {
+            margin-top: 30px;
+        }
+        .category h2 {
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 20px;
         }
     </style>
     <title>Skills</title>
@@ -33,13 +52,83 @@
     </header>
     <section class="skills">
         <h1>My Skills</h1>
-        <ul>
-            <li><strong>Front-End:</strong> HTML, CSS, JavaScript, React.js</li>
-            <li><strong>Back-End:</strong> Node.js, Express.js, Java</li>
-            <li><strong>Database:</strong> MongoDB, MySQL</li>
-            <li><strong>Version Control:</strong> Git, GitHub</li>
-            <li><strong>Other Tools:</strong> Postman, Figma</li>
-        </ul>
+
+     
+        <div class="category">
+            <h2>Front-End</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="D:\Portfolio\Html.png" alt="HTML">
+                   
+                </div>
+                <div class="skill">
+                    <img src="D:\Portfolio\css.jpg" alt="CSS">
+                   
+                </div>
+                <div class="skill">
+                    <img src="D:\Portfolio\javascript.jpg" alt="JavaScript">
+                
+                </div>
+                <div class="skill">
+                    <img src="D:\Portfolio\react.png" alt="React.js">
+                    
+                </div>
+            </div>
+        </div>
+
+       
+        <div class="category">
+            <h2>Back-End</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="D:\Portfolio\node.png" alt="Node.js">
+                   
+                </div>
+                <div class="skill">
+                    <img src="D:\Portfolio\python.jpg" alt="Python">
+                    
+                </div>
+                <div class="skill">
+                    <img src="D:\Portfolio\java.jpg" alt="Java">
+                   
+                </div>
+            </div>
+        </div>
+
+      
+        <div class="category">
+            <h2>Database</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="D:\Portfolio\mongo.jpg" alt="MongoDB">
+                   
+                </div>
+                <div class="skill">
+                    <img src="D:\Portfolio\mysql.png" alt="MySQL">
+                  
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="category">
+            <h2>Version Control & Tools</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="D:\Portfolio\git.png" alt="Git">
+                 
+                </div>
+                <div class="skill">
+                    <img src="D:\Portfolio\github.jpg" alt="GitHub">
+                    
+                </div>
+                <div class="skill">
+                    <img src="D:\Portfolio\figma.png" alt="Figma">
+                   
+                </div>
+            </div>
+        </div>
+
     </section>
 </body>
 </html>

@@ -6,16 +6,36 @@
     <link rel="stylesheet" href="D:/Portfolio/style.css">
     <style>
         body {
-            font-size: 18px; /* Adjusted font size for better readability */
+            font-size: 18px;
         }
         h1 {
-            font-size: 32px; /* Increased font size for the main heading */
+            font-size: 32px; 
         }
         h3 {
-            font-size: 24px; /* Increased font size for project titles */
+            font-size: 24px; 
         }
         p {
-            font-size: 20px; /* Increased font size for project descriptions */
+            font-size: 20px;
+        }
+        .project {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .project img {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .project img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .project h3 {
+            margin: 10px 0;
         }
     </style>
     <title>Projects</title>
@@ -35,15 +55,24 @@
         <h1>My Projects</h1>
         <div class="project-list">
             <div class="project">
-                <h3><a href="https://github.com/yourusername/linhub" target="_blank">LinHub</a></h3>
+                <a href="https://github.com/HarshiniMuruganthan/linhub" target="_blank">
+                    <img src="linhub.jpg" alt="LinHub">
+                </a>
+                <h3>LinHub</h3>
                 <p>LinHuB sounds like a fantastic solution for simplifying the process of finding reliable local services and products.</p>
             </div>
             <div class="project">
-                <h3><a href="https://github.com/yourusername/college-canteen-management-system" target="_blank">College Canteen Management System</a></h3>
+                <a href="https://github.com/SECE-2023-2027/CSEA-HarshiniMuruganthan/tree/main/CanteenManagement" target="_blank">
+                    <img src="collegecanteen.jpg" alt="College Canteen Management System">
+                </a>
+                <h3>College Canteen Management System</h3>
                 <p>A College Canteen Management System in Java automates ordering, billing, and inventory tasks for efficient canteen operations.</p>
             </div>
             <div class="project">
-                <h3><a href="https://github.com/SECE-2023-2027/practice-project-phase-i-HarshiniMuruganthan/tree/main/Ticket/bin/com/ticketing" target="_blank">Event Ticketing and Seat Allocation</a></h3>
+                <a href="https://github.com/SECE-2023-2027/practice-project-phase-i-HarshiniMuruganthan/tree/main/Ticket/bin/com/ticketing" target="_blank">
+                    <img src="ticketbooking.jpg" alt="Event Ticketing and Seat Allocation">
+                </a>
+                <h3>Event Ticketing and Seat Allocation</h3>
                 <p>An Event Management and Seat Allocation System in Java streamlines event organization, registration, and seat booking for efficient attendee management.</p>
             </div>
         </div>

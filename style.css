@@ -112,7 +112,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8rem;
+    gap: 6rem;
 }
 
 .home .home-content h1 {
@@ -132,12 +132,12 @@ span {
 }
 
 .home-img img {
-    width: 25vw;  
-    border-radius: 50%;
+    width: 20vw;  
+    border-radius: 20%;
     box-shadow: 0.02px solid #b74b4b;
     cursor: pointer;
     transition: 0.2s linear;
-    margin-top: 3rem; 
+    margin-top: 10rem; 
 }
 
 .btn {
@@ -154,7 +154,7 @@ span {
         cursor: pointer;
         margin-top: 2rem; 
     }
-}
+
 
 .btn:hover {
     transform: scale(1.03);
